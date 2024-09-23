@@ -10,15 +10,19 @@ fahrenheit_to_celsius = (inputted_temperature_value_from_the_user-32)*(5/9)
 
 # - Ask user user to select the conversion type: from Celsius to Fahrenheit or from Fahrenheit to Celsius.
 print()
-print("What conversion type do you want?\nChoose one.\n1 = Celsius to Fahrenheit\n2 = Fahrenheit to Celcius")
-ask_conversion_type = input("Write your choice here: ")
-    # - Conditional Statement below
-if ask_conversion_type == "1":
-    print(f"The result of celsius to fahrenheit is {celsius_to_fahrenheit}.")
-elif ask_conversion_type == "2":
-    print(f"The result of fahrenheit to celsius is {fahrenheit_to_celsius}.")
-else:
-    print("Invalid input")
+
+while True:
+    print("What conversion type do you want?\nChoose one.\n1 = Celsius to Fahrenheit\n2 = Fahrenheit to Celcius")
+    ask_conversion_type = input("Write your choice here: ")
+        # - Conditional Statement below
+    if ask_conversion_type == "1":
+        print(f"\nThe result of celsius to fahrenheit is {celsius_to_fahrenheit}.")
+        break
+    elif ask_conversion_type == "2":
+        print(f"\nThe result of fahrenheit to celsius is {fahrenheit_to_celsius}.")
+        break
+    else:
+        print("Invalid input\n")
 
 
 
