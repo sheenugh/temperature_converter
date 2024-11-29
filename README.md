@@ -1,10 +1,5 @@
-# temperature_converter
-This repository is for DSA Individual Laboratory Exercise 1.
-
-# Exercise 1: Temperature Converter
-Instructions:
-1.	Ask the user to input a temperature.
-2.	Ask the user to select the conversion type: from Celsius to Fahrenheit or from Fahrenheit to Celsius.
-3.	Perform the appropriate conversion and print the result.
-
-Ctto: Prof. Godofredo Avena
+# Temperature Converter
+This repository is for DSA Individual Laboratory Exercise 1 <br>
+This contains 1 exercise <br>
+Details of the laboratory exercise is inside the txt <br>
+Laboratory exercise came from Prof. Avena
